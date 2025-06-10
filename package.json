@@ -1,6 +1,6 @@
 {
   "name": "@dutils/react-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight collection of reusable React utilities.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -24,11 +24,13 @@
   },
   "keywords": [
     "react",
-    "hooks",
-    "utils",
+    "react-hooks",
     "useEvent",
-    "useLayoutEffect",
-    "react-18"
+    "react-utils",
+    "react-library",
+    "typescript",
+    "react-18",
+    "react-19"
   ],
   "repository": {
     "type": "git",
@@ -37,7 +39,7 @@
   "author": "Dennis Duong",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": ">=18.0.0"
   },
   "devDependencies": {
     "@testing-library/react": "^14.3.1",
